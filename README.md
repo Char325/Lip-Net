@@ -48,6 +48,10 @@ Lip Net consists of several key components that work together to achieve accurat
 High-quality video data of individuals speaking is collected. This data serves as the foundation for training and testing the neural network models. This data is available as a Google Drive link within the code. 
 * #### Preprocessing:
  The video data is preprocessed to extract relevant features, such as the region of interest (the lips) and key points that represent lip movements.
+ A sample animation is:
+ 
+ ![animation](https://github.com/user-attachments/assets/a2e58814-ee73-4ed3-af38-bc89c06e2f4a)
+
 * #### Convolutional Neural Network Model:
 A deep learning CNN model is trained on the preprocessed data. This model learns to recognize patterns in lip movements and associate them with corresponding phonemes or words.
 * #### Inference:
